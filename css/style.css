@@ -1,0 +1,142 @@
+:root {
+  --main-bg-color: #a6c9ff;
+  --text-color: #ffffff; }
+
+.page {
+  font-family: "Roboto", sans-serif;
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 45px;
+  color: var(--text-color);
+  max-width: 1170px;
+  margin: 0 auto;
+  min-height: 100vh; }
+
+:root {
+  --main-bg-color: #a6c9ff;
+  --text-color: #ffffff; }
+
+.page-header {
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+  background-color: #b47ff6;
+  padding-top: 55px;
+  padding-bottom: 48px;
+  margin-bottom: 40px; }
+
+.page-header-burger {
+  background-color: inherit;
+  border: none;
+  width: 44px;
+  cursor: pointer; }
+
+.page-header__popup {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--main-bg-color);
+  padding: 33px 65px; }
+
+:root {
+  --main-bg-color: #a6c9ff;
+  --text-color: #ffffff; }
+
+:root {
+  --main-bg-color: #a6c9ff;
+  --text-color: #ffffff; }
+
+.page-main {
+  background-color: var(--main-bg-color); }
+
+:root {
+  --main-bg-color: #a6c9ff;
+  --text-color: #ffffff; }
+
+.main-nav {
+  margin-left: 155px;
+  margin-right: auto; }
+
+.main-nav__list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px 60px; }
+
+:root {
+  --main-bg-color: #a6c9ff;
+  --text-color: #ffffff; }
+
+.secondary-nav {
+  background-color: var(--main-bg-color);
+  padding: 33px 65px; }
+
+:root {
+  --main-bg-color: #a6c9ff;
+  --text-color: #ffffff; }
+
+:root {
+  --main-bg-color: #a6c9ff;
+  --text-color: #ffffff; }
+
+.banner {
+  background-color: #7029cb;
+  display: flex;
+  padding: 50px; }
+
+.banner__title {
+  font-size: 45px;
+  margin-left: auto; }
+
+:root {
+  --main-bg-color: #a6c9ff;
+  --text-color: #ffffff; }
+
+.features__block {
+  display: flex;
+  flex-wrap: wrap; }
+
+:root {
+  --main-bg-color: #a6c9ff;
+  --text-color: #ffffff; }
+
+:root {
+  --main-bg-color: #a6c9ff;
+  --text-color: #ffffff; }
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  border: 0;
+  clip: rect(0 0 0 0); }
+
+.section-title {
+  text-align: center;
+  font-weight: 600;
+  font-size: 30px; }
+
+html {
+  box-sizing: border-box; }
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+  color: inherit; }
+
+ul[class],
+ol[class] {
+  list-style: none; }
+
+a {
+  text-decoration: none;
+  color: inherit; }
+
+img {
+  max-width: 100%; }

@@ -1,0 +1,14 @@
+@import "../variables.scss";
+
+.banner {
+  background-color: #7029cb;
+  display: flex;
+  padding: 50px;
+}
+
+.banner__title {
+    font-size: 45px;
+    margin-left: auto;
+}
+
+

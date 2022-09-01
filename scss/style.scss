@@ -1,0 +1,41 @@
+@import "blocks/page.scss";
+@import "blocks/page-header.scss";
+@import "blocks/page-footer.scss";
+@import "blocks/page-main.scss";
+@import "blocks/main-nav.scss";
+@import "blocks/secondary-nav.scss";
+@import "blocks/popup-button.scss";
+@import "blocks/banner.scss";
+@import "blocks/features.scss";
+@import "blocks/info.scss";
+
+@import "variables.scss";
+@import "common.scss";
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+  color: inherit;
+}
+
+ul[class],
+ol[class] {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+img {
+  max-width: 100%;
+}
+

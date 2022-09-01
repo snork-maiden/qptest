@@ -7,8 +7,26 @@
 }
 
 .banner__title {
-    font-size: 45px;
-    margin-left: auto;
+  font-size: 45px;
+  margin-right: 32px;
 }
 
+.banner__arrow {
+  background: none;
+  width: 40px;
+  height: 40px;
+  border: 2px solid;
+  border-bottom: none;
+  border-right: none;
 
+  &--left {
+    order: -1;
+    margin-right: auto;
+    transform: rotate(-45deg);
+  }
+
+  &--right {
+    margin-left: auto;
+    transform: rotate(135deg);
+  }
+}

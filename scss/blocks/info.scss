@@ -4,25 +4,24 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-bottom: 40px;
 }
 
 .info-list {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 20px;
+  display: grid;
   margin: 0 25px;
+  width: calc(100% - 50px);
+  gap: 20px;
+  grid-template-columns: repeat(5, 1fr);
   margin-bottom: 40px;
   padding: 25px;
   background-color: #d4ff5a;
 }
 
 .info__item {
-  width: 198px;
-  height: 198px;
   background-color: #497957;
   border: 2px solid #00ff4a;
   border-radius: 35px;
+  aspect-ratio: 1 / 1;
   &:hover {
     box-shadow: 2px 5px 10px #497957;
   }
@@ -30,5 +29,5 @@
 
 .info__text {
     color: #F3F3F3;
-    margin-bottom: 10px;
+    padding-bottom: 10px;
 }

@@ -28,7 +28,7 @@
           </li>
         </ul>
       </nav>
-      <button type="button" class="page-header-burger">
+      <button type="button" class="page-header-burger" onclick="toggleNavigation()">
         <span class="visually-hidden"> Open secondary navigation </span>
         <svg
           width="44"
@@ -80,12 +80,20 @@
     </header>
     <main class="page-main">
       <section class="banner">
-        <h1 class="banner__title">H1 text</h1>
-        <a href="#popup" class="popup-button">Open pop-up button</a>
-        <button class="banner__arrow banner__arrow--left">
+        <div class="banner-slide">
+          <h1 class="banner__title">H1 text</h1>
+          <a href="#popup" class="popup-button">Open pop-up button</a>
+        </div>
+        <div class="banner-slide">
+          <p>Text 2</p>
+        </div>
+        <div class="banner-slide">
+          <p>Text 3</p>
+        </div>
+        <button class="banner__arrow banner__arrow--left" onclick="slideBannerBackward()">
           <span class="visually-hidden"> Previous </span>
         </button>
-        <button class="banner__arrow banner__arrow--right">
+        <button class="banner__arrow banner__arrow--right" onclick="slideBannerForward()">
           <span class="visually-hidden"> Next </span>
         </button>
       </section>
@@ -137,5 +145,6 @@
         </li>
       </ul>
     </footer>
+    <script src="script.js"></script>
   </body>
 </html>

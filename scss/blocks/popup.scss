@@ -8,14 +8,13 @@
   bottom: 0;
   background: rgba(0, 0, 0, 0.7);
   transition: opacity 0.5s;
-   visibility: hidden;
-   opacity: 0;
-   &:target {
+  visibility: hidden;
+  opacity: 0;
+  &:target {
     visibility: visible;
     opacity: 1;
-   }
+  }
 }
-
 
 .popup__body {
   position: fixed;
@@ -40,6 +39,8 @@
 
 .popup__close {
   display: flex;
+  justify-content: center;
+  align-items: center;
   position: absolute;
   top: 15px;
   right: 15px;
@@ -50,6 +51,8 @@
   border-radius: 5px;
   &::before {
     content: "x";
-    margin: auto;
+    text-align: center;
+    font-weight: 400;
+    font-size: 20px;
   }
 }

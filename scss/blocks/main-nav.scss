@@ -1,12 +1,16 @@
 @import "../variables.scss";
 
 .main-nav {
-    margin-left: 155px;
-    margin-right: auto;
-  }
-  
-  .main-nav__list {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px 60px;
-  }
+  margin-left: 155px;
+  margin-right: auto;
+}
+
+.main-nav__list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px 60px;
+}
+
+.main-nav__link:hover {
+  text-decoration: underline;
+}

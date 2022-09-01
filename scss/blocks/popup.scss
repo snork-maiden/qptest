@@ -1,0 +1,55 @@
+@import "../variables.scss";
+
+.popup {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.7);
+  transition: opacity 0.5s;
+   visibility: hidden;
+   opacity: 0;
+   &:target {
+    visibility: visible;
+    opacity: 1;
+   }
+}
+
+
+.popup__body {
+  position: fixed;
+  width: 400px;
+  height: 400px;
+  top: calc(50% - 200px);
+  left: calc(50% - 200px);
+  background-color: var(--main-bg-color);
+}
+
+.popup__wrapper {
+  position: relative;
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+
+.popup__text {
+  text-align: center;
+  margin: auto;
+}
+
+.popup__close {
+  display: flex;
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  width: 40px;
+  height: 40px;
+
+  background-color: #497957;
+  border-radius: 5px;
+  &::before {
+    content: "x";
+    margin: auto;
+  }
+}

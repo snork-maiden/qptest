@@ -43,6 +43,18 @@
   --main-bg-color: #a6c9ff;
   --text-color: #ffffff; }
 
+.page-footer {
+  background-color: #D87FF6;
+  min-height: 100px;
+  display: flex; }
+
+.page-footer__nav {
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+  min-width: 600px;
+  justify-content: space-between; }
+
 :root {
   --main-bg-color: #a6c9ff;
   --text-color: #ffffff; }
@@ -136,13 +148,15 @@
 .info {
   display: flex;
   flex-direction: column;
-  align-items: center; }
+  align-items: center;
+  margin-bottom: 40px; }
 
 .info-list {
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
   margin: 0 25px;
+  margin-bottom: 40px;
   padding: 25px;
   background-color: #d4ff5a; }
 

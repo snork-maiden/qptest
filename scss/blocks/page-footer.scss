@@ -1,2 +1,15 @@
 @import "../variables.scss";
 
+.page-footer {
+    background-color: #D87FF6;
+    min-height: 100px;
+    display: flex;
+}
+
+.page-footer__nav {
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    min-width: 600px;
+    justify-content: space-between;
+}

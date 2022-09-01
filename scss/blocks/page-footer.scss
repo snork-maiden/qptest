@@ -4,12 +4,14 @@
     background-color: #D87FF6;
     min-height: 100px;
     display: flex;
+    padding-right: 7px;
+    margin-top: auto;
 }
 
 .page-footer__nav {
     display: flex;
     flex-wrap: wrap;
     margin: auto;
-    min-width: 600px;
+    width: 745px;
     justify-content: space-between;
 }

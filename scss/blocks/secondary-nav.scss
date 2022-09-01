@@ -1,6 +1,14 @@
 @import "../variables.scss";
 
 .secondary-nav {
-    background-color: var(--main-bg-color);
-    padding: 33px 65px;
+    display: flex;
+    flex-direction: column;
+    gap: 39px;
+    padding-top: 33px;
+    padding-left: 65px;
+    margin-bottom: 55px;
+}
+
+.secondary-nav__button {
+    margin: 0 auto;
 }

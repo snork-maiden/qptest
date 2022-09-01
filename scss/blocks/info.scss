@@ -8,19 +8,23 @@
 
 .info-list {
   display: grid;
-  margin: 0 25px;
-  width: calc(100% - 50px);
   gap: 20px;
   grid-template-columns: repeat(5, 1fr);
+
+  margin: 0 25px;
   margin-bottom: 40px;
   padding: 25px;
+
+  width: calc(100% - 50px);
   background-color: #d4ff5a;
+
+  border-radius: 35px;
 }
 
 .info__item {
   background-color: #497957;
   border: 2px solid #00ff4a;
-  border-radius: 35px;
+  border-radius: 17%;
   aspect-ratio: 1 / 1;
   &:hover {
     box-shadow: 2px 5px 10px #497957;

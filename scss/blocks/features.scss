@@ -3,7 +3,7 @@
 .features__wrapper {
   display: grid;
   grid-template-columns: 392px 1fr 162px;
-  grid-template-rows: auto auto;
+  grid-template-rows: 198px 198px;
   gap: 13px;
   counter-reset: features__block;
 }

@@ -11,6 +11,12 @@
   gap: 20px 60px;
 }
 
-.main-nav__link:hover {
+.main-nav__item:first-child .main-nav__link {
   text-decoration: underline;
+}
+
+.main-nav__link {
+  &:hover {
+    text-decoration: underline;
+  }
 }

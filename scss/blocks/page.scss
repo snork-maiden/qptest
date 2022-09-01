@@ -8,6 +8,10 @@
   color: var(--text-color);
   max-width: 1170px;
   margin: 0 auto;
+}
+
+.page__wrapper {
+  background-color: var(--main-bg-color);
   min-height: 100vh;
   display: flex;
   flex-direction: column;

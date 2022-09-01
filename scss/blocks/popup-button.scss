@@ -1,15 +1,23 @@
 @import "../variables.scss";
 .popup-button {
   display: block;
-  width: 262px;
-  height: 58px;
+  width: 220px;
+  height: 48px;
   text-align: center;
-  font-size: 24px;
-  line-height: 58px;
+  font-size: 20px;
+  line-height: 48px;
   font-weight: 400;
   background: #ff4b4b;
   border-radius: 25px;
   &:hover {
     box-shadow: 2px 5px 10px #497957;
+  }
+
+  @media screen and (min-width: 650px) {
+    width: 262px;
+    height: 58px;
+    font-size: 24px;
+    line-height: 58px;
+
   }
 }

@@ -14,137 +14,151 @@
     <title>Test task for Quality Performance</title>
   </head>
   <body class="page">
-    <header class="page-header">
-      <nav class="page-header__nav main-nav">
-        <ul class="main-nav__list">
-          <li class="main-nav__item">
-            <a href="#" class="main-nav__link">Text</a>
-          </li>
-          <li class="main-nav__item">
-            <a href="#" class="main-nav__link">Text</a>
-          </li>
-          <li class="main-nav__item">
-            <a href="#" class="main-nav__link">Text</a>
-          </li>
-        </ul>
-      </nav>
-      <button type="button" class="page-header-burger" onclick="toggleNavigation()">
-        <span class="visually-hidden"> Open secondary navigation </span>
-        <svg
-          width="44"
-          height="27"
-          viewBox="0 0 44 27"
-          fill="none"
-          xmlns="http://www.w3.org/2000/svg"
+    <div class="page__wrapper">
+      <header class="page-header">
+        <nav class="page-header__nav main-nav">
+          <ul class="main-nav__list">
+            <li class="main-nav__item">
+              <a href="#" class="main-nav__link">Text</a>
+            </li>
+            <li class="main-nav__item">
+              <a href="#" class="main-nav__link">Text</a>
+            </li>
+            <li class="main-nav__item">
+              <a href="#" class="main-nav__link">Text</a>
+            </li>
+          </ul>
+        </nav>
+        <button
+          type="button"
+          class="page-header-burger"
+          onclick="toggleNavigation()"
         >
-          <line
-            y1="1.5"
-            x2="43.3738"
-            y2="1.5"
-            stroke="white"
-            stroke-width="3"
-          />
-          <line
-            y1="13.5"
-            x2="43.3738"
-            y2="13.5"
-            stroke="white"
-            stroke-width="3"
-          />
-          <line
-            y1="25.5"
-            x2="43.3738"
-            y2="25.5"
-            stroke="white"
-            stroke-width="3"
-          />
-        </svg>
-      </button>
-      <div class="page-header__popup">
-        <ul class="secondary-nav">
-          <li class="secondary-nav__item">
-            <a href="#" class="secondary-nav__link">Text</a>
-          </li>
-          <li class="secondary-nav__item">
-            <a href="#" class="secondary-nav__link">Text</a>
-          </li>
-          <li class="secondary-nav__item">
-            <a href="#" class="secondary-nav__link">Text</a>
-          </li>
-          <li class="secondary-nav__item">
-            <a href="#" class="secondary-nav__link">Text</a>
-          </li>
-        </ul>
-        <a href="#popup" class="secondary-nav__button popup-button">Open pop-up button</a>
-      </div>
-    </header>
-    <main class="page-main">
-      <section class="banner">
-        <div class="banner-slide">
-          <h1 class="banner__title">H1 text</h1>
+          <span class="visually-hidden"> Open secondary navigation </span>
+          <svg
+            width="44"
+            height="27"
+            viewBox="0 0 44 27"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <line
+              y1="1.5"
+              x2="43.3738"
+              y2="1.5"
+              stroke="white"
+              stroke-width="3"
+            />
+            <line
+              y1="13.5"
+              x2="43.3738"
+              y2="13.5"
+              stroke="white"
+              stroke-width="3"
+            />
+            <line
+              y1="25.5"
+              x2="43.3738"
+              y2="25.5"
+              stroke="white"
+              stroke-width="3"
+            />
+          </svg>
+        </button>
+        <div class="page-header__popup">
+          <ul class="secondary-nav">
+            <li class="secondary-nav__item">
+              <a href="#" class="secondary-nav__link">Text</a>
+            </li>
+            <li class="secondary-nav__item">
+              <a href="#" class="secondary-nav__link">Text</a>
+            </li>
+            <li class="secondary-nav__item">
+              <a href="#" class="secondary-nav__link">Text</a>
+            </li>
+            <li class="secondary-nav__item">
+              <a href="#" class="secondary-nav__link">Text</a>
+            </li>
+          </ul>
+          <a href="#popup" class="secondary-nav__button popup-button"
+            >Open pop-up button</a
+          >
+        </div>
+      </header>
+      <main class="page-main">
+        <section class="banner">
+          <div class="banner-slide">
+            <h1 class="banner__title">H1 text</h1>
+            <a href="#popup" class="popup-button">Open pop-up button</a>
+          </div>
+          <div class="banner-slide">
+            <p>Text 2</p>
+          </div>
+          <div class="banner-slide">
+            <p>Text 3</p>
+          </div>
+          <button
+            class="banner__arrow banner__arrow--left"
+            onclick="slideBannerBackward()"
+          >
+            <span class="visually-hidden"> Previous </span>
+          </button>
+          <button
+            class="banner__arrow banner__arrow--right"
+            onclick="slideBannerForward()"
+          >
+            <span class="visually-hidden"> Next </span>
+          </button>
+        </section>
+        <section class="features">
+          <h2 class="section-title">H2 text</h2>
+          <div class="features__wrapper">
+            <div class="features__block"></div>
+            <div class="features__block"></div>
+            <div class="features__block"></div>
+            <div class="features__block"></div>
+          </div>
+        </section>
+        <section class="info">
+          <h2 class="section-title">H2 text</h2>
+          <ul class="info-list">
+            <li class="info__item"></li>
+            <li class="info__item"></li>
+            <li class="info__item"></li>
+            <li class="info__item"></li>
+            <li class="info__item"></li>
+          </ul>
+          <p class="info__text">Text utp</p>
           <a href="#popup" class="popup-button">Open pop-up button</a>
-        </div>
-        <div class="banner-slide">
-          <p>Text 2</p>
-        </div>
-        <div class="banner-slide">
-          <p>Text 3</p>
-        </div>
-        <button class="banner__arrow banner__arrow--left" onclick="slideBannerBackward()">
-          <span class="visually-hidden"> Previous </span>
-        </button>
-        <button class="banner__arrow banner__arrow--right" onclick="slideBannerForward()">
-          <span class="visually-hidden"> Next </span>
-        </button>
-      </section>
-      <section class="features">
-        <h2 class="section-title">H2 text</h2>
-        <div class="features__wrapper">
-          <div class="features__block"></div>
-          <div class="features__block"></div>
-          <div class="features__block"></div>
-          <div class="features__block"></div>
-        </div>
-      </section>
-      <section class="info">
-        <h2 class="section-title">H2 text</h2>
-        <ul class="info-list">
-          <li class="info__item"></li>
-          <li class="info__item"></li>
-          <li class="info__item"></li>
-          <li class="info__item"></li>
-          <li class="info__item"></li>
-        </ul>
-        <p class="info__text">Text utp</p>
-        <a href="#popup" class="popup-button">Open pop-up button</a>
-      </section>
-      <div class="popup" id="popup">
-        <div class="popup__body">
-          <div class="popup__wrapper">
-            <p class="popup__text">Pop-up</p>
-            <a href="#" class="popup__close">
-              <span class="visually-hidden"> Close pop-up </span>
-            </a>
+        </section>
+        <div class="popup" id="popup">
+          <div class="popup__body">
+            <div class="popup__wrapper">
+              <p class="popup__text">Pop-up</p>
+              <a href="#" class="popup__close">
+                <span class="visually-hidden"> Close pop-up </span>
+              </a>
+            </div>
           </div>
         </div>
-      </div>
-    </main>
-    <footer class="page-footer">
-      <ul class="page-footer__nav footer-nav">
-        <li class="footer-nav__item">
-          <a href="#" class="footer-nav__link">Text</a>
-        </li>
-        <li class="footer-nav__item">
-          <a href="#" class="footer-nav__link">Text</a>
-        </li>
-        <li class="footer-nav__item">
-          <a href="#" class="footer-nav__link">Text</a>
-        </li>
-        <li class="footer-nav__item">
-          <a href="#" class="footer-nav__link">Text</a>
-        </li>
-      </ul>
-    </footer>
+      </main>
+      <footer class="page-footer">
+        <ul class="page-footer__nav footer-nav">
+          <li class="footer-nav__item">
+            <a href="#" class="footer-nav__link">Text</a>
+          </li>
+          <li class="footer-nav__item">
+            <a href="#" class="footer-nav__link">Text</a>
+          </li>
+          <li class="footer-nav__item">
+            <a href="#" class="footer-nav__link">Text</a>
+          </li>
+          <li class="footer-nav__item">
+            <a href="#" class="footer-nav__link">Text</a>
+          </li>
+        </ul>
+      </footer>
+    </div>
     <script src="script.js"></script>
   </body>
 </html>

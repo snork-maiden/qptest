@@ -14,8 +14,12 @@
   border: none;
   width: 44px;
   height: 24px;
-  margin-right: 60px;
+  margin-right: 20px;
   cursor: pointer;
+
+  @media screen and (min-width: 650px) {
+    margin-right: 60px;
+  }
 }
 
 .page-header__popup {

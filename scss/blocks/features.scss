@@ -21,11 +21,10 @@
   }
 
   &::before {
-      counter-increment: features__block;
-      content: counters(features__block, '');
-      margin: auto;
-      font-size: 53px;
-      font-weight: 400;
-
+    counter-increment: features__block;
+    content: counters(features__block, "");
+    margin: auto;
+    font-size: 53px;
+    font-weight: 400;
   }
 }

@@ -1,1 +1,32 @@
 @import "../variables.scss";
+
+.info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.info-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin: 0 25px;
+  padding: 25px;
+  background-color: #d4ff5a;
+}
+
+.info__item {
+  width: 198px;
+  height: 198px;
+  background-color: #497957;
+  border: 2px solid #00ff4a;
+  border-radius: 35px;
+  &:hover {
+    box-shadow: 2px 5px 10px #497957;
+  }
+}
+
+.info__text {
+    color: #F3F3F3;
+    margin-bottom: 10px;
+}
